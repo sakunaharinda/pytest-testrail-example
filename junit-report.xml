@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.107"
+               timestamp="2022-08-25T20:53:54.474127" hostname="Sakunas-MBP">
+        <testcase classname="tests.test_subtraction" name="test_subtract_two_numbers" file="tests/test_subtraction.py"
+                  line="4" time="0.001"/>
+        <testcase classname="tests.test_sum" name="test_sum_two_numbers" file="tests/test_sum.py" line="6"
+                  time="0.001"/>
+        <testcase classname="tests.test_sum" name="test_sum_two_decimals" file="tests/test_sum.py" line="11"
+                  time="0.001">
+            <failure message="assert (0.8 + 0.3) == 1.2">@pytest.mark.case("C62")
+                def test_sum_two_decimals():
+                &gt; assert 0.8 + 0.3 == 1.2
+                E assert (0.8 + 0.3) == 1.2
+
+                tests/test_sum.py:14: AssertionError
+            </failure>
+        </testcase>
+        <testcase classname="tests.test_sum" name="test_sum_multiple_numbers[3+5-8]" file="tests/test_sum.py" line="16"
+                  time="0.001"/>
+        <testcase classname="tests.test_sum" name="test_sum_multiple_numbers[2+4-6]" file="tests/test_sum.py" line="16"
+                  time="0.001"/>
+    </testsuite>
+</testsuites>
