@@ -3,7 +3,7 @@ from testrail_api import TestRailAPI
 from pprint import pprint
 
 if __name__=='__main__':
-    url = "https://<your user>.testrail.io/"
+    url = "https://sakuna.testrail.io/"
     email = os.environ['TESTRAIL_USER']
     pw = os.environ['TESTRAIL_KEY']
 

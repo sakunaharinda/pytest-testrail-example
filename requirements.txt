@@ -1,2 +1,3 @@
 pytest==7.1.2
 pytest-testrail==2.9.0
+testrail_api
